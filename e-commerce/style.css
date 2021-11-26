@@ -1,0 +1,108 @@
+@media screen and (max-width: 1140px){
+    .profile,
+    .shop{
+        overflow: hidden;
+        display: none;
+    }
+   .logo {
+       display:none;
+   }
+   #shoe {
+       overflow: hidden;
+       display: none;
+   }
+}
+
+.logo{
+    background-color: transparent;
+    margin-left:8rem;
+    border-radius: 20px;
+  
+
+}
+.navbar-nav {
+    font-size: 1.2rem;
+}
+
+.shop {
+    margin-right: 3rem; 
+     
+
+}
+
+.profile {
+    margin-right:3rem;
+    border-radius: 60%;
+}
+
+#info {
+    margin-top:10rem;
+    margin-left:3rem;
+    
+}
+
+#addCart {
+    margin-left:9rem;
+    margin-top:-4rem;
+    height:2.7rem;
+    background-color: #ff7518;
+    -webkit-box-shadow: 3px 10px 46px -2px rgba(255,117,24,0.92); 
+    box-shadow: 3px 10px 46px -2px rgba(255,117,24,0.92);   
+    width: 13rem;
+    border-radius: 10px;
+}
+
+#decrease,
+#increase{
+    color: #ff7518;
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+
+h6{
+    color: #ff7518;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+p{
+    font-size:1.1rem;
+    font-family: sans-serif;
+    
+}
+
+#featured {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    height:400px;
+    object-fit: cover;
+    margin-top:3rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.thumbnail{
+    max-width:180px;
+    max-height: 100px;
+    opacity: 0.5;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left:0.25rem;
+  
+}
+.thumbnail:hover{
+    opacity: 1;
+    border:solid #ff7518;
+}
+.active{
+    opacity: 1;
+}
+
